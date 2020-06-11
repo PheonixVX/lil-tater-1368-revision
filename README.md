@@ -6,7 +6,9 @@ For setup instructions please see the [fabric wiki page](https://fabricmc.net/wi
 
 ### CLI Instructions
 
-To run and build the mod utilizing a CLI, cd into the current directory and run gradlew.bat clean then gradlew.bat build.
+To run and build the mod utilizing a CLI, cd into the current directory and running 
+```gradlew.bat clean```
+```gradlew.bat build```
 
 ## License
 
