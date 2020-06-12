@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "modfest",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Lil Tater Revision #1368",
+  "description": "Lil Tater Revision #1368",
   "authors": [
-    "Me!"
+    "PheonixVX @ Github.com"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/PheonixVX/lil-tater-1368-revision",
+    "sources": "https://github.com/PheonixVX/lil-tater-1368-revision"
   },
 
   "license": "CC0-1.0",
@@ -19,17 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.PheonixVX.modfest.Mod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": "1.15.x"
+    "minecraft": "1.16.x"
   },
   "suggests": {
     "flamingo": "*"
