@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "pheonixvx_modfest:block/lil_tater" },
+		"facing=east":  { "model": "pheonixvx_modfest:block/lil_tater", "y":  90},
+		"facing=south": { "model": "pheonixvx_modfest:block/lil_tater", "y": 180 },
+    "facing=west":  { "model": "pheonixvx_modfest:block/lil_tater", "y": 270 },
+    "facing=up": { "model": "pheonixvx_modfest:block/lil_tater" },
+    "facing=down": { "model": "pheonixvx_modfest:block/lil_tater" }
+	}
+}

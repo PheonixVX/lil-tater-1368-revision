@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modfest",
+  "id": "pheonixvx_modfest",
   "version": "${version}",
 
   "name": "Lil Tater Revision #1368",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.PheonixVX.modfest.Mod"
+      "net.PheonixVX.pheonixvx_modfest.Mod"
     ]
   },
 

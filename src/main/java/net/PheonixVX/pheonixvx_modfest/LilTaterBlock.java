@@ -1,4 +1,4 @@
-package net.PheonixVX.modfest;
+package net.PheonixVX.pheonixvx_modfest;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -18,7 +18,7 @@ public class LilTaterBlock extends Block {
     }
 
     @Override
-    public void appendProperties(StateManager.Builder builder) {
+    public void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         builder.add(Properties.FACING);
     }
 
@@ -29,8 +29,6 @@ public class LilTaterBlock extends Block {
 
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext stx) {
-        //Block.createCuboidShape(4.0D, 0.0D, 4.0D, 12.0D, 8.0D, 12.0D);
-        //return VoxelShapes.cuboid(4.0D, 0.0D, 4.0D, 12.0D, 8.0D, 12.0D);
         return VoxelShapes.cuboid(0.35D, 0.0D, 0.35D, 0.65D, 0.5D, 0.65D);
     }
 }
